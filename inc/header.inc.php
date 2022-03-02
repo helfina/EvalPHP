@@ -37,7 +37,7 @@ require_once "init.inc.php";
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="<?= URL ?>index.php">Home</a>
+                        <a class="nav-link active" aria-current="page" href="<?= URL ?>accueil.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= URL ?>ajoutAnnonce.php?action=ajouter">Ajouter une annonce</a>
