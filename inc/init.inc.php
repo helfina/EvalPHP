@@ -8,12 +8,12 @@ $pdo  = new PDO('mysql:host=localhost;dbname=gk_wf3_php_intermediaire_gaelle', '
 
 //------------------------------------------------------------
 //definition d'une constante :
-if($_SERVER['SERVER_NAME'] == 'evalphp.test'){
+if(is_dir('C:')){
     $serverName = 'evalphp.test';
     define( 'URL', "http://".$serverName."/");
 }else{
-    $serverName = 'evalphp.test';
-    define( 'URL', "http://".$serverName."/");
+    $serverName = 'evalphp.g.maxslid.com';
+    define( 'URL', "https://".$serverName."/");
 }
 
 //http://evalphp.test/
